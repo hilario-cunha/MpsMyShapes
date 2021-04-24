@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/MyColor.BaseLanguage/MyColor.BaseLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MyColor/MyColor.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MyShapes.Enhanced/MyShapes.Enhanced.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MyShapes/MyShapes.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MyShapes/sandbox/MyShapes.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

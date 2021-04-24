@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:7f351a53-9f04-4cd7-afb4-c87223baeb4c(MyShapes.sandbox)/6464568348596042068">
+    <file name="MyCanvas.java">
+      <node id="6464568348596042068" at="15,47,16,30" concept="0" />
+      <node id="7126740561890895973" at="16,30,17,78" concept="0" />
+      <node id="7126740561890895982" at="17,78,18,79" concept="0" />
+      <node id="5052879292715019649" at="18,79,19,72" concept="0" />
+      <node id="7126740561890895948" at="19,72,20,78" concept="0" />
+      <node id="6464568348596042068" at="24,29,25,30" concept="0" />
+      <node id="6464568348596042068" at="25,30,26,56" concept="0" />
+      <node id="6464568348596042068" at="26,56,27,20" concept="0" />
+      <node id="6464568348596042068" at="27,20,28,52" concept="0" />
+      <node id="6464568348596042068" at="28,52,29,16" concept="0" />
+      <node id="6464568348596042068" at="29,16,30,26" concept="0" />
+      <node id="6464568348596042068" at="33,42,34,37" concept="3" />
+      <node id="6464568348596042068" at="34,37,35,24" concept="0" />
+      <node id="6464568348596042068" at="33,0,37,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="6464568348596042068" at="14,0,22,0" concept="2" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="6464568348596042068" at="24,0,32,0" concept="2" trace="initialize#()V" />
+      <node id="6464568348596042068" at="13,0,23,0" concept="1" trace="panel" />
+      <scope id="6464568348596042068" at="33,42,35,24">
+        <var name="canvas" id="6464568348596042068" />
+      </scope>
+      <scope id="6464568348596042068" at="33,0,37,0">
+        <var name="args" id="6464568348596042068" />
+      </scope>
+      <scope id="6464568348596042068" at="15,47,20,78" />
+      <scope id="6464568348596042068" at="24,29,30,26" />
+      <scope id="6464568348596042068" at="14,0,22,0">
+        <var name="g" id="6464568348596042068" />
+      </scope>
+      <scope id="6464568348596042068" at="24,0,32,0" />
+      <unit id="6464568348596042068" at="13,29,22,3" name="MyShapes.sandbox.MyCanvas$1" />
+      <unit id="6464568348596042068" at="12,0,38,0" name="MyShapes.sandbox.MyCanvas" />
+    </file>
+  </root>
+</debug-info>
+

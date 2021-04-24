@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="19,0,41,0" name="MyShapes.Enhanced.editor.EditorAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:090af988-d2e6-494b-8159-4ab46d17383c(MyShapes.Enhanced.editor)/8040852959047137446">
+    <file name="Square_ShapePreview_Editor.java">
+      <node id="8040852959047137446" at="14,0,15,0" concept="3" trace="myContextHints" />
+      <node id="8040852959047137446" at="17,47,18,26" concept="6" />
+      <node id="8040852959047137446" at="20,79,21,85" concept="6" />
+      <node id="8040852959047137446" at="20,0,23,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047137446" at="15,0,20,0" concept="4" trace="getContextHints#()Ljava/util/Collection;" />
+      <scope id="8040852959047137446" at="17,47,18,26" />
+      <scope id="8040852959047137446" at="20,79,21,85" />
+      <scope id="8040852959047137446" at="20,0,23,0">
+        <var name="editorContext" id="8040852959047137446" />
+        <var name="node" id="8040852959047137446" />
+      </scope>
+      <scope id="8040852959047137446" at="15,0,20,0" />
+      <unit id="8040852959047137446" at="13,0,24,0" name="MyShapes.Enhanced.editor.Square_ShapePreview_Editor" />
+    </file>
+    <file name="Square_ShapePreview_EditorBuilder_a.java">
+      <node id="8040852959047137446" at="32,99,33,19" concept="9" />
+      <node id="8040852959047137446" at="33,19,34,18" concept="2" />
+      <node id="8040852959047137446" at="39,26,40,18" concept="6" />
+      <node id="8040852959047137446" at="43,39,44,32" concept="6" />
+      <node id="8040852959047137446" at="47,43,48,118" concept="5" />
+      <node id="8040852959047137446" at="48,118,49,48" concept="2" />
+      <node id="8040852959047137446" at="49,48,50,28" concept="2" />
+      <node id="8040852959047137446" at="50,28,51,31" concept="2" />
+      <node id="8040852959047140921" at="51,31,52,51" concept="2" />
+      <node id="8040852959047140995" at="52,51,53,51" concept="2" />
+      <node id="8040852959047137446" at="53,51,54,22" concept="6" />
+      <node id="8040852959047140921" at="57,9,58,41" concept="2" />
+      <node id="8040852959047140921" at="58,41,59,108" concept="2" />
+      <node id="8040852959047140921" at="60,7,61,115" concept="5" />
+      <node id="8040852959047140921" at="61,115,62,26" concept="6" />
+      <node id="8040852959047140921" at="64,15,65,40" concept="2" />
+      <node id="8040852959047137446" at="68,43,69,161" concept="5" />
+      <node id="8040852959047137446" at="69,161,70,51" concept="2" />
+      <node id="8040852959047137446" at="70,51,71,22" concept="6" />
+      <node id="8040852959047382404" at="73,61,74,102" concept="5" />
+      <node id="8040852959047376423" at="74,102,75,0" concept="7" />
+      <node id="8040852959047170060" at="78,55,79,25" concept="2" />
+      <node id="8040852959047157536" at="79,25,80,32" concept="2" />
+      <node id="8040852959047193404" at="82,29,83,273" concept="2" />
+      <node id="8040852959047268200" at="89,43,90,52" concept="5" />
+      <node id="8040852959047295015" at="92,29,93,91" concept="2" />
+      <node id="8040852959047323075" at="93,91,94,92" concept="2" />
+      <node id="8040852959047352620" at="96,11,97,25" concept="6" />
+      <node id="8040852959047137446" at="103,0,104,0" concept="8" trace="size$W9W5" />
+      <node id="8040852959047137446" at="104,0,105,0" concept="8" trace="name$MnvL" />
+      <node id="8040852959047137446" at="108,0,109,0" concept="8" trace="color$kKlg" />
+      <node id="8040852959047137446" at="109,0,110,0" concept="8" trace="target$loZf" />
+      <node id="8040852959047137446" at="29,0,31,0" concept="3" trace="myNode" />
+      <node id="8040852959047137446" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047186431" at="82,0,85,0" concept="4" trace="run#()V" />
+      <node id="8040852959047137446" at="32,0,36,0" concept="1" trace="Square_ShapePreview_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8040852959047140921" at="59,108,63,7" concept="0" />
+      <node id="8040852959047292667" at="92,0,96,0" concept="4" trace="run#()V" />
+      <node id="8040852959047137446" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8040852959047137446" at="68,0,73,0" concept="4" trace="createJComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047176653" at="80,32,85,11" concept="2" />
+      <node id="8040852959047282486" at="90,52,96,11" concept="2" />
+      <node id="8040852959047137446" at="47,0,56,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047140921" at="56,43,66,5" concept="10" />
+      <node id="8040852959047157523" at="77,0,87,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="8040852959047258249" at="88,0,99,0" concept="4" trace="getPreferredSize#()Ljava/awt/Dimension;" />
+      <node id="8040852959047140921" at="56,0,68,0" concept="4" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047145957" at="75,0,99,6" concept="6" />
+      <node id="8040852959047140997" at="73,0,101,0" concept="4" trace="_QueryFunction_JComponent_ukdplt_a1a#()Ljavax/swing/JComponent;" />
+      <scope id="8040852959047137446" at="39,26,40,18" />
+      <scope id="8040852959047137446" at="43,39,44,32" />
+      <scope id="8040852959047140921" at="64,15,65,40" />
+      <scope id="8040852959047186432" at="82,29,83,273" />
+      <scope id="8040852959047137446" at="32,99,34,18" />
+      <scope id="8040852959047140921" at="60,7,62,26">
+        <var name="editorCell" id="8040852959047140921" />
+      </scope>
+      <scope id="8040852959047292668" at="92,29,94,92" />
+      <scope id="8040852959047137446" at="43,0,46,0" />
+      <scope id="8040852959047137446" at="68,43,71,22">
+        <var name="editorCell" id="8040852959047137446" />
+      </scope>
+      <scope id="8040852959047186431" at="82,0,85,0" />
+      <scope id="8040852959047137446" at="32,0,36,0">
+        <var name="context" id="8040852959047137446" />
+        <var name="node" id="8040852959047137446" />
+      </scope>
+      <scope id="8040852959047292667" at="92,0,96,0" />
+      <scope id="8040852959047137446" at="37,0,42,0" />
+      <scope id="8040852959047137446" at="68,0,73,0" />
+      <scope id="8040852959047140921" at="57,9,63,7" />
+      <scope id="8040852959047137446" at="47,43,54,22">
+        <var name="editorCell" id="8040852959047137446" />
+      </scope>
+      <scope id="8040852959047157532" at="78,55,85,11" />
+      <scope id="8040852959047258257" at="89,43,97,25">
+        <var name="dimension" id="8040852959047268201" />
+      </scope>
+      <scope id="8040852959047137446" at="47,0,56,0" />
+      <scope id="8040852959047140921" at="56,43,66,5" />
+      <scope id="8040852959047157523" at="77,0,87,0">
+        <var name="g" id="8040852959047157527" />
+      </scope>
+      <scope id="8040852959047258249" at="88,0,99,0" />
+      <scope id="8040852959047140921" at="56,0,68,0" />
+      <scope id="8040852959047140999" at="73,61,99,6">
+        <var name="modelAccess" id="8040852959047382405" />
+      </scope>
+      <scope id="8040852959047140997" at="73,0,101,0" />
+      <unit id="8040852959047186431" at="81,38,85,9" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a$1$1" />
+      <unit id="8040852959047137446" at="102,0,106,0" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a$PROPS" />
+      <unit id="8040852959047137446" at="107,0,111,0" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a$LINKS" />
+      <unit id="8040852959047292667" at="91,38,96,9" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a$1$2" />
+      <unit id="8040852959047157298" at="76,15,99,5" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a$1" />
+      <unit id="8040852959047137446" at="28,0,112,0" name="MyShapes.Enhanced.editor.Square_ShapePreview_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:090af988-d2e6-494b-8159-4ab46d17383c(MyShapes.Enhanced.editor)/8040852959047443098">
+    <file name="Circle_ShapePreview_Editor.java">
+      <node id="8040852959047443098" at="14,0,15,0" concept="3" trace="myContextHints" />
+      <node id="8040852959047443098" at="17,47,18,26" concept="6" />
+      <node id="8040852959047443098" at="20,79,21,85" concept="6" />
+      <node id="8040852959047443098" at="20,0,23,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047443098" at="15,0,20,0" concept="4" trace="getContextHints#()Ljava/util/Collection;" />
+      <scope id="8040852959047443098" at="17,47,18,26" />
+      <scope id="8040852959047443098" at="20,79,21,85" />
+      <scope id="8040852959047443098" at="20,0,23,0">
+        <var name="editorContext" id="8040852959047443098" />
+        <var name="node" id="8040852959047443098" />
+      </scope>
+      <scope id="8040852959047443098" at="15,0,20,0" />
+      <unit id="8040852959047443098" at="13,0,24,0" name="MyShapes.Enhanced.editor.Circle_ShapePreview_Editor" />
+    </file>
+    <file name="Circle_ShapePreview_EditorBuilder_a.java">
+      <node id="8040852959047443098" at="32,99,33,19" concept="9" />
+      <node id="8040852959047443098" at="33,19,34,18" concept="2" />
+      <node id="8040852959047443098" at="39,26,40,18" concept="6" />
+      <node id="8040852959047443098" at="43,39,44,32" concept="6" />
+      <node id="8040852959047443098" at="47,43,48,118" concept="5" />
+      <node id="8040852959047443098" at="48,118,49,48" concept="2" />
+      <node id="8040852959047443098" at="49,48,50,28" concept="2" />
+      <node id="8040852959047443098" at="50,28,51,31" concept="2" />
+      <node id="8040852959047443100" at="51,31,52,51" concept="2" />
+      <node id="8040852959047443103" at="52,51,53,51" concept="2" />
+      <node id="8040852959047443098" at="53,51,54,22" concept="6" />
+      <node id="8040852959047443100" at="57,9,58,41" concept="2" />
+      <node id="8040852959047443100" at="58,41,59,108" concept="2" />
+      <node id="8040852959047443100" at="60,7,61,115" concept="5" />
+      <node id="8040852959047443100" at="61,115,62,26" concept="6" />
+      <node id="8040852959047443100" at="64,15,65,40" concept="2" />
+      <node id="8040852959047443098" at="68,43,69,161" concept="5" />
+      <node id="8040852959047443098" at="69,161,70,51" concept="2" />
+      <node id="8040852959047443098" at="70,51,71,22" concept="6" />
+      <node id="8040852959047443106" at="73,61,74,102" concept="5" />
+      <node id="8040852959047443117" at="74,102,75,0" concept="7" />
+      <node id="8040852959047443129" at="78,55,79,25" concept="2" />
+      <node id="8040852959047443132" at="79,25,80,32" concept="2" />
+      <node id="8040852959047443141" at="82,29,83,275" concept="2" />
+      <node id="8040852959047443163" at="89,43,90,52" concept="5" />
+      <node id="8040852959047443174" at="92,29,93,93" concept="2" />
+      <node id="8040852959047443184" at="93,93,94,94" concept="2" />
+      <node id="8040852959047443194" at="96,11,97,25" concept="6" />
+      <node id="8040852959047443098" at="103,0,104,0" concept="8" trace="radius$rh6e" />
+      <node id="8040852959047443098" at="104,0,105,0" concept="8" trace="name$MnvL" />
+      <node id="8040852959047443098" at="108,0,109,0" concept="8" trace="color$kKlg" />
+      <node id="8040852959047443098" at="109,0,110,0" concept="8" trace="target$loZf" />
+      <node id="8040852959047443098" at="29,0,31,0" concept="3" trace="myNode" />
+      <node id="8040852959047443098" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047443139" at="82,0,85,0" concept="4" trace="run#()V" />
+      <node id="8040852959047443098" at="32,0,36,0" concept="1" trace="Circle_ShapePreview_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8040852959047443100" at="59,108,63,7" concept="0" />
+      <node id="8040852959047443172" at="92,0,96,0" concept="4" trace="run#()V" />
+      <node id="8040852959047443098" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8040852959047443098" at="68,0,73,0" concept="4" trace="createJComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047443135" at="80,32,85,11" concept="2" />
+      <node id="8040852959047443168" at="90,52,96,11" concept="2" />
+      <node id="8040852959047443098" at="47,0,56,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047443100" at="56,43,66,5" concept="10" />
+      <node id="8040852959047443123" at="77,0,87,0" concept="4" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="8040852959047443159" at="88,0,99,0" concept="4" trace="getPreferredSize#()Ljava/awt/Dimension;" />
+      <node id="8040852959047443100" at="56,0,68,0" concept="4" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8040852959047443118" at="75,0,99,6" concept="6" />
+      <node id="8040852959047443104" at="73,0,101,0" concept="4" trace="_QueryFunction_JComponent_347ksb_a1a#()Ljavax/swing/JComponent;" />
+      <scope id="8040852959047443098" at="39,26,40,18" />
+      <scope id="8040852959047443098" at="43,39,44,32" />
+      <scope id="8040852959047443100" at="64,15,65,40" />
+      <scope id="8040852959047443140" at="82,29,83,275" />
+      <scope id="8040852959047443098" at="32,99,34,18" />
+      <scope id="8040852959047443100" at="60,7,62,26">
+        <var name="editorCell" id="8040852959047443100" />
+      </scope>
+      <scope id="8040852959047443173" at="92,29,94,94" />
+      <scope id="8040852959047443098" at="43,0,46,0" />
+      <scope id="8040852959047443098" at="68,43,71,22">
+        <var name="editorCell" id="8040852959047443098" />
+      </scope>
+      <scope id="8040852959047443139" at="82,0,85,0" />
+      <scope id="8040852959047443098" at="32,0,36,0">
+        <var name="context" id="8040852959047443098" />
+        <var name="node" id="8040852959047443098" />
+      </scope>
+      <scope id="8040852959047443172" at="92,0,96,0" />
+      <scope id="8040852959047443098" at="37,0,42,0" />
+      <scope id="8040852959047443098" at="68,0,73,0" />
+      <scope id="8040852959047443100" at="57,9,63,7" />
+      <scope id="8040852959047443098" at="47,43,54,22">
+        <var name="editorCell" id="8040852959047443098" />
+      </scope>
+      <scope id="8040852959047443128" at="78,55,85,11" />
+      <scope id="8040852959047443162" at="89,43,97,25">
+        <var name="dimension" id="8040852959047443164" />
+      </scope>
+      <scope id="8040852959047443098" at="47,0,56,0" />
+      <scope id="8040852959047443100" at="56,43,66,5" />
+      <scope id="8040852959047443123" at="77,0,87,0">
+        <var name="g" id="8040852959047443126" />
+      </scope>
+      <scope id="8040852959047443159" at="88,0,99,0" />
+      <scope id="8040852959047443100" at="56,0,68,0" />
+      <scope id="8040852959047443105" at="73,61,99,6">
+        <var name="modelAccess" id="8040852959047443107" />
+      </scope>
+      <scope id="8040852959047443104" at="73,0,101,0" />
+      <unit id="8040852959047443139" at="81,38,85,9" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a$1$1" />
+      <unit id="8040852959047443098" at="102,0,106,0" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a$PROPS" />
+      <unit id="8040852959047443098" at="107,0,111,0" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a$LINKS" />
+      <unit id="8040852959047443172" at="91,38,96,9" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a$1$2" />
+      <unit id="8040852959047443121" at="76,15,99,5" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a$1" />
+      <unit id="8040852959047443098" at="28,0,112,0" name="MyShapes.Enhanced.editor.Circle_ShapePreview_EditorBuilder_a" />
+    </file>
+  </root>
+</debug-info>
+
