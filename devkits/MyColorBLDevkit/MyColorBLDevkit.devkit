@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="MyColorBLDevkit" uuid="a5c0f9aa-43fb-4bac-b0ce-4aae095d063c">
+  <exported-language name="97c1388b-e891-4959-85e0-3de45135ef54(MyColor)" />
+  <exported-language name="1f047296-6e78-4a9c-a1eb-3516e98eb703(MyColor.BaseLanguage)" />
+  <exported-solutions>
+    <exported-solution>d29fb3f4-d5e6-495c-8dde-4646a9906438(BaseLanguage.Utils)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+

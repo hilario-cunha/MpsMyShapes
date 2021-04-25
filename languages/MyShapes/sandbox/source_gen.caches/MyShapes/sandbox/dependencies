@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="MyShapes.sandbox.MyCanvas">
-    <classNode dependClassName="MyColor.Helpers.ColorHelpers" />
+    <classNode dependClassName="BaseLanguage.Utils.Code.ColorHelpers" />
     <classNode dependClassName="MyShapes.generator.helpers.DrawHelpers" />
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Graphics" />

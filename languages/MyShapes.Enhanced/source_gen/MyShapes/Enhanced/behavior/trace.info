@@ -1,3 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="11,0,22,0" name="MyShapes.Enhanced.behavior.BehaviorAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9365e264-a085-4397-aae8-ea46e628dec3(MyShapes.Enhanced.behavior)/1711332614434069639">
+    <file name="Helpers.java">
+      <node id="1711332614433933846" at="30,55,31,32" concept="2" />
+      <node id="1711332614434095232" at="35,43,36,41" concept="2" />
+      <node id="1711332614433933931" at="45,43,46,39" concept="7" />
+      <node id="1711332614433933942" at="50,33,51,51" concept="7" />
+      <node id="1711332614434557080" at="59,44,60,265" concept="2" />
+      <node id="1711332614434557101" at="63,42,64,149" concept="7" />
+      <node id="1711332614434543563" at="72,44,73,267" concept="2" />
+      <node id="1711332614434543082" at="76,42,77,153" concept="7" />
+      <node id="1711332614434082630" at="83,5,84,33" concept="6" />
+      <node id="1711332614434083039" at="85,69,86,371" concept="2" />
+      <node id="1711332614434083667" at="86,371,87,15" concept="7" />
+      <node id="1711332614434083785" at="90,5,91,33" concept="6" />
+      <node id="1711332614434083788" at="92,69,93,387" concept="2" />
+      <node id="1711332614434083792" at="93,387,94,15" concept="7" />
+      <node id="1711332614434069639" at="100,0,101,0" concept="8" trace="shapes$Sdex" />
+      <node id="1711332614434069639" at="101,0,102,0" concept="8" trace="color$kKlg" />
+      <node id="1711332614434069639" at="102,0,103,0" concept="8" trace="target$loZf" />
+      <node id="1711332614434069639" at="106,0,107,0" concept="8" trace="size$W9W5" />
+      <node id="1711332614434069639" at="107,0,108,0" concept="8" trace="name$MnvL" />
+      <node id="1711332614434069639" at="108,0,109,0" concept="8" trace="radius$rh6e" />
+      <node id="1711332614434069639" at="109,0,110,0" concept="8" trace="x$raZO" />
+      <node id="1711332614434069639" at="110,0,111,0" concept="8" trace="y$rgpb" />
+      <node id="1711332614434069639" at="111,0,112,0" concept="8" trace="upperLeftX$W3PF" />
+      <node id="1711332614434069639" at="112,0,113,0" concept="8" trace="upperLeftY$W9f2" />
+      <node id="1711332614434069639" at="116,0,117,0" concept="8" trace="Circle$YK" />
+      <node id="1711332614434069639" at="117,0,118,0" concept="8" trace="Square$Zf" />
+      <node id="1711332614433933868" at="35,0,38,0" concept="5" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1711332614433933938" at="49,0,53,0" concept="5" trace="getBorder#()Ljavax/swing/border/Border;" />
+      <node id="1711332614434557074" at="58,0,62,0" concept="5" trace="DrawShape#(Ljava/awt/Graphics;)V" />
+      <node id="1711332614434557097" at="62,0,66,0" concept="5" trace="GetDimension#()Ljava/awt/Dimension;" />
+      <node id="1711332614434515197" at="71,0,75,0" concept="5" trace="DrawShape#(Ljava/awt/Graphics;)V" />
+      <node id="1711332614434515206" at="75,0,79,0" concept="5" trace="GetDimension#()Ljava/awt/Dimension;" />
+      <node id="1711332614434082630" at="84,33,88,7" concept="4" />
+      <node id="1711332614434083785" at="91,33,95,7" concept="4" />
+      <node id="1711332614433933862" at="33,29,38,15" concept="2" />
+      <node id="1711332614433933926" at="43,0,48,0" concept="5" trace="getPreferredSize#()Ljava/awt/Dimension;" />
+      <node id="1711332614433933860" at="33,0,40,0" concept="5" trace="run#()V" />
+      <node id="1711332614434082630" at="82,58,89,5" concept="0" />
+      <node id="1711332614434083785" at="89,5,96,5" concept="0" />
+      <node id="1711332614433933849" at="31,32,40,11" concept="2" />
+      <node id="1711332614434557068" at="56,80,66,6" concept="7" />
+      <node id="1711332614434500049" at="69,80,79,6" concept="7" />
+      <node id="1711332614434186488" at="56,0,68,0" concept="9" trace="CreateSquareShapePreviewComponent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+      <node id="1711332614434155584" at="69,0,81,0" concept="9" trace="CreateCircleShapePreviewComponent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+      <node id="1711332614433933840" at="29,0,42,0" concept="5" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="1711332614434081316" at="82,0,98,0" concept="9" trace="DrawShape#(Ljava/awt/Graphics;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1711332614433933835" at="27,74,53,6" concept="7" />
+      <node id="1711332614434129329" at="27,0,55,0" concept="9" trace="CreateScenePreviewComponent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+      <scope id="1711332614433933869" at="35,43,36,41" />
+      <scope id="1711332614433933930" at="45,43,46,39" />
+      <scope id="1711332614433933941" at="50,33,51,51" />
+      <scope id="1711332614434557079" at="59,44,60,265" />
+      <scope id="1711332614434557100" at="63,42,64,149" />
+      <scope id="1711332614434515204" at="72,44,73,267" />
+      <scope id="1711332614434515211" at="76,42,77,153" />
+      <scope id="1711332614434082632" at="85,69,87,15" />
+      <scope id="1711332614434083787" at="92,69,94,15" />
+      <scope id="1711332614433933868" at="35,0,38,0">
+        <var name="it" id="1711332614433933868" />
+      </scope>
+      <scope id="1711332614433933938" at="49,0,53,0" />
+      <scope id="1711332614434557074" at="58,0,62,0">
+        <var name="g" id="1711332614434557077" />
+      </scope>
+      <scope id="1711332614434557097" at="62,0,66,0" />
+      <scope id="1711332614434515197" at="71,0,75,0">
+        <var name="g" id="1711332614434515201" />
+      </scope>
+      <scope id="1711332614434515206" at="75,0,79,0" />
+      <scope id="1711332614433933861" at="33,29,38,15" />
+      <scope id="1711332614433933926" at="43,0,48,0" />
+      <scope id="1711332614434082630" at="83,5,88,7">
+        <var name="circle" id="1711332614434082630" />
+      </scope>
+      <scope id="1711332614434083785" at="90,5,95,7">
+        <var name="square" id="1711332614434083785" />
+      </scope>
+      <scope id="1711332614433933860" at="33,0,40,0" />
+      <scope id="1711332614433933845" at="30,55,40,11" />
+      <scope id="1711332614434186489" at="56,80,66,6" />
+      <scope id="1711332614434155587" at="69,80,79,6" />
+      <scope id="1711332614434186488" at="56,0,68,0">
+        <var name="node" id="1711332614434186583" />
+      </scope>
+      <scope id="1711332614434155584" at="69,0,81,0">
+        <var name="node" id="1711332614434161877" />
+      </scope>
+      <scope id="1711332614433933840" at="29,0,42,0">
+        <var name="g" id="1711332614433933843" />
+      </scope>
+      <scope id="1711332614434081317" at="82,58,96,5" />
+      <scope id="1711332614434081316" at="82,0,98,0">
+        <var name="g" id="1711332614434081340" />
+        <var name="shape" id="1711332614434081342" />
+      </scope>
+      <scope id="1711332614434107746" at="27,74,53,6" />
+      <scope id="1711332614434129329" at="27,0,55,0">
+        <var name="node" id="1711332614434119851" />
+      </scope>
+      <unit id="1711332614433933868" at="34,101,38,13" name="MyShapes.Enhanced.behavior.Helpers$1$1$1" />
+      <unit id="1711332614434069639" at="115,0,119,0" name="MyShapes.Enhanced.behavior.Helpers$CONCEPTS" />
+      <unit id="1711332614434069639" at="99,0,104,0" name="MyShapes.Enhanced.behavior.Helpers$LINKS" />
+      <unit id="1711332614433933860" at="32,90,40,9" name="MyShapes.Enhanced.behavior.Helpers$1$1" />
+      <unit id="1711332614434557071" at="57,15,66,5" name="MyShapes.Enhanced.behavior.Helpers$2" />
+      <unit id="1711332614434505704" at="70,15,79,5" name="MyShapes.Enhanced.behavior.Helpers$3" />
+      <unit id="1711332614434069639" at="105,0,114,0" name="MyShapes.Enhanced.behavior.Helpers$PROPS" />
+      <unit id="1711332614433933838" at="28,15,53,5" name="MyShapes.Enhanced.behavior.Helpers$1" />
+      <unit id="1711332614434069639" at="26,0,120,0" name="MyShapes.Enhanced.behavior.Helpers" />
+    </file>
+  </root>
+  <root nodeRef="r:9365e264-a085-4397-aae8-ea46e628dec3(MyShapes.Enhanced.behavior)/1711332614434320651">
+    <file name="ShapePreviewComponent.java">
+      <node id="1711332614434346729" at="14,0,15,0" concept="3" trace="modelAccess" />
+      <node id="1711332614434348973" at="15,44,16,82" concept="2" />
+      <node id="1711332614434335361" at="19,51,20,21" concept="2" />
+      <node id="1711332614434335364" at="20,21,21,28" concept="2" />
+      <node id="1711332614434335373" at="23,25,24,21" concept="2" />
+      <node id="1711332614434477953" at="29,0,30,0" concept="5" trace="DrawShape#(Ljava/awt/Graphics;)V" />
+      <node id="1711332614434335383" at="32,39,33,89" concept="6" />
+      <node id="1711332614434466147" at="35,25,36,41" concept="2" />
+      <node id="1711332614434335398" at="38,7,39,27" concept="7" />
+      <node id="1711332614434389222" at="42,0,43,0" concept="5" trace="GetDimension#()Ljava/awt/Dimension;" />
+      <node id="1711332614434343031" at="15,0,18,0" concept="1" trace="ShapePreviewComponent#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1711332614434335371" at="23,0,26,0" concept="5" trace="run#()V" />
+      <node id="1711332614434462688" at="35,0,38,0" concept="5" trace="run#()V" />
+      <node id="1711332614434335367" at="21,28,26,7" concept="2" />
+      <node id="1711332614434335388" at="33,89,38,7" concept="2" />
+      <node id="1711332614434335355" at="18,0,28,0" concept="5" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="1711332614434335379" at="31,0,41,0" concept="5" trace="getPreferredSize#()Ljava/awt/Dimension;" />
+      <scope id="1711332614434343034" at="15,44,16,82" />
+      <scope id="1711332614434335372" at="23,25,24,21" />
+      <scope id="1711332614434477953" at="29,0,30,0">
+        <var name="g" id="1711332614434480996" />
+      </scope>
+      <scope id="1711332614434462689" at="35,25,36,41" />
+      <scope id="1711332614434389222" at="42,0,43,0" />
+      <scope id="1711332614434343031" at="15,0,18,0">
+        <var name="node" id="1711332614434344495" />
+      </scope>
+      <scope id="1711332614434335371" at="23,0,26,0" />
+      <scope id="1711332614434462688" at="35,0,38,0" />
+      <scope id="1711332614434335360" at="19,51,26,7" />
+      <scope id="1711332614434335382" at="32,39,39,27">
+        <var name="dimension" id="1711332614434335384" />
+      </scope>
+      <scope id="1711332614434335355" at="18,0,28,0">
+        <var name="g" id="1711332614434335358" />
+      </scope>
+      <scope id="1711332614434335379" at="31,0,41,0" />
+      <unit id="1711332614434335371" at="22,34,26,5" name="MyShapes.Enhanced.behavior.ShapePreviewComponent$1" />
+      <unit id="1711332614434462688" at="34,34,38,5" name="MyShapes.Enhanced.behavior.ShapePreviewComponent$2" />
+      <unit id="1711332614434320651" at="13,0,44,0" name="MyShapes.Enhanced.behavior.ShapePreviewComponent" />
+    </file>
+  </root>
+</debug-info>
 

@@ -8,8 +8,8 @@
   <root nodeRef="r:7f351a53-9f04-4cd7-afb4-c87223baeb4c(MyShapes.sandbox)/6464568348596042068">
     <file name="MyCanvas.java">
       <node id="6464568348596042068" at="15,47,16,30" concept="0" />
-      <node id="7126740561890895973" at="16,30,17,78" concept="0" />
-      <node id="7126740561890895982" at="17,78,18,79" concept="0" />
+      <node id="7126740561890895973" at="16,30,17,80" concept="0" />
+      <node id="7126740561890895982" at="17,80,18,79" concept="0" />
       <node id="5052879292715019649" at="18,79,19,72" concept="0" />
       <node id="7126740561890895948" at="19,72,20,78" concept="0" />
       <node id="6464568348596042068" at="24,29,25,30" concept="0" />

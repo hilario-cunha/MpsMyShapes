@@ -28,8 +28,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.generator.impl.query.ReferenceTargetQuery;
 import jetbrains.mps.generator.impl.query.MapNodeQuery;
+import jetbrains.mps.smodel.builder.SNodeBuilder;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
 
 @Generated
 public class QueriesGenerated extends QueryProviderBase {
@@ -74,10 +76,10 @@ public class QueriesGenerated extends QueryProviderBase {
     });
   }
   public static SNode mapSrcMacro_map_2_0(final MapSrcMacroContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), LINKS.color$kKlg);
+    return createStringLiteral_x583g4_a0a21(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), LINKS.color$kKlg), LINKS.target$loZf), PROPS.name$MnvL));
   }
   public static SNode mapSrcMacro_map_3_0(final MapSrcMacroContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), LINKS.color$kKlg);
+    return createStringLiteral_x583g4_a0a31(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), LINKS.color$kKlg), LINKS.target$loZf), PROPS.name$MnvL));
   }
   private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
   {
@@ -184,8 +186,8 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   private final Map<String, MapNodeQuery> mnqMethods = new HashMap<String, MapNodeQuery>();
   {
-    mnqMethods.put("8040852959045782347", new MNQ(0));
-    mnqMethods.put("8040852959046187521", new MNQ(1));
+    mnqMethods.put("4232426253487147464", new MNQ(0));
+    mnqMethods.put("4232426253487157612", new MNQ(1));
   }
   @NotNull
   @Override
@@ -210,6 +212,16 @@ public class QueriesGenerated extends QueryProviderBase {
       }
     }
   }
+  private static SNode createStringLiteral_x583g4_a0a21(String p0) {
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.StringLiteral$xu);
+    n0.setProperty(PROPS.value$w7MM, p0);
+    return n0.getResult();
+  }
+  private static SNode createStringLiteral_x583g4_a0a31(String p0) {
+    SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.StringLiteral$xu);
+    n0.setProperty(PROPS.value$w7MM, p0);
+    return n0.getResult();
+  }
 
   private static final class PROPS {
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
@@ -219,15 +231,18 @@ public class QueriesGenerated extends QueryProviderBase {
     /*package*/ static final SProperty upperLeftX$W3PF = MetaAdapterFactory.getProperty(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL, 0x59b6c2a98c5d5a89L, "upperLeftX");
     /*package*/ static final SProperty upperLeftY$W9f2 = MetaAdapterFactory.getProperty(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL, 0x59b6c2a98c5d5a8bL, "upperLeftY");
     /*package*/ static final SProperty size$W9W5 = MetaAdapterFactory.getProperty(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL, 0x59b6c2a98c5d5a8eL, "size");
+    /*package*/ static final SProperty value$w7MM = MetaAdapterFactory.getProperty(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, 0xf93d565d11L, "value");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept Canvas$HM = MetaAdapterFactory.getConcept(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4cf37dL, "MyShapes.structure.Canvas");
     /*package*/ static final SConcept EmptyShape$FY = MetaAdapterFactory.getConcept(0xf27753254788418aL, 0xb75972b67f771c05L, 0x461f6ef2073128f1L, "MyShapes.structure.EmptyShape");
+    /*package*/ static final SConcept StringLiteral$xu = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf93d565d10L, "jetbrains.mps.baseLanguage.structure.StringLiteral");
   }
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink shapes$Sdex = MetaAdapterFactory.getContainmentLink(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4cf37dL, 0x59b6c2a98c4cf956L, "shapes");
     /*package*/ static final SContainmentLink color$kKlg = MetaAdapterFactory.getContainmentLink(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4cf955L, 0x59b6c2a98c4eafc3L, "color");
+    /*package*/ static final SReferenceLink target$loZf = MetaAdapterFactory.getReferenceLink(0x97c1388be8914959L, 0x85e03de45135ef54L, 0x59b6c2a98c4e9876L, 0x59b6c2a98c4e9877L, "target");
   }
 }

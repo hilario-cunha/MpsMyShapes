@@ -23,8 +23,10 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     SAbstractConcept cncpt = ((SAbstractConcept) concept);
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new Circle_ShapePreview_Editor());
+        return Collections.<ConceptEditor>singletonList(new Canvas_ScenePreview_Editor());
       case 1:
+        return Collections.<ConceptEditor>singletonList(new Circle_ShapePreview_Editor());
+      case 2:
         return Collections.<ConceptEditor>singletonList(new Square_ShapePreview_Editor());
       default:
     }
@@ -36,5 +38,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
   }
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040aL), MetaIdFactory.conceptId(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4cf37dL), MetaIdFactory.conceptId(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040aL), MetaIdFactory.conceptId(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL)).seal();
 }

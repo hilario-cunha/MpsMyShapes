@@ -11,19 +11,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
-import org.jetbrains.mps.openapi.module.ModelAccess;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import javax.swing.JPanel;
-import java.awt.Graphics;
-import MyShapes.generator.helpers.DrawHelpers;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import MyColor.Helpers.ColorHelpers;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import java.awt.Dimension;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import org.jetbrains.mps.openapi.language.SReferenceLink;
+import MyShapes.Enhanced.behavior.Helpers;
 
 /*package*/ class Square_ShapePreview_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -71,41 +59,6 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     return editorCell;
   }
   private JComponent _QueryFunction_JComponent_ukdplt_a1a() {
-    final ModelAccess modelAccess = SNodeOperations.getModel(myNode).getRepository().getModelAccess();
-
-    return new JPanel() {
-      @Override
-      protected void paintComponent(final Graphics g) {
-        setOpaque(false);
-        super.paintComponent(g);
-        modelAccess.runReadAction(new Runnable() {
-          public void run() {
-            DrawHelpers.DrawSquare(g, 10, 10, SPropertyOperations.getInteger(myNode, PROPS.size$W9W5), ColorHelpers.GetColor(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(myNode, LINKS.color$kKlg), LINKS.target$loZf), PROPS.name$MnvL)));
-          }
-        });
-      }
-
-      @Override
-      public Dimension getPreferredSize() {
-        final Dimension dimension = new Dimension();
-        modelAccess.runReadAction(new Runnable() {
-          public void run() {
-            dimension.width = 20 + SPropertyOperations.getInteger(myNode, PROPS.size$W9W5);
-            dimension.height = 20 + SPropertyOperations.getInteger(myNode, PROPS.size$W9W5);
-          }
-        });
-        return dimension;
-      }
-    };
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty size$W9W5 = MetaAdapterFactory.getProperty(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4d040bL, 0x59b6c2a98c5d5a8eL, "size");
-    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink color$kKlg = MetaAdapterFactory.getContainmentLink(0xf27753254788418aL, 0xb75972b67f771c05L, 0x59b6c2a98c4cf955L, 0x59b6c2a98c4eafc3L, "color");
-    /*package*/ static final SReferenceLink target$loZf = MetaAdapterFactory.getReferenceLink(0x97c1388be8914959L, 0x85e03de45135ef54L, 0x59b6c2a98c4e9876L, 0x59b6c2a98c4e9877L, "target");
+    return Helpers.CreateSquareShapePreviewComponent(myNode);
   }
 }

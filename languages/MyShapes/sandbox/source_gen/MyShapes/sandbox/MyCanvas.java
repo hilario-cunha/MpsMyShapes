@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import MyShapes.generator.helpers.DrawHelpers;
-import MyColor.Helpers.ColorHelpers;
+import BaseLanguage.Utils.Code.ColorHelpers;
 import java.awt.Dimension;
 
 public class MyCanvas extends JFrame {
@@ -14,7 +14,7 @@ public class MyCanvas extends JFrame {
     @Override
     protected void paintComponent(Graphics g) {
       super.paintComponent(g);
-      DrawHelpers.DrawSquare(g, 100, 100, 100, ColorHelpers.GetColor("CYAN"));
+      DrawHelpers.DrawSquare(g, 100, 100, 100, ColorHelpers.GetColor("yellow"));
       DrawHelpers.DrawCircle(g, 100, 100, 100, ColorHelpers.GetColor("GREEN"));
       DrawHelpers.DrawSquare(g, 1, 2, 20, ColorHelpers.GetColor("RED"));
       DrawHelpers.DrawCircle(g, 200, 200, 100, ColorHelpers.GetColor("blue"));

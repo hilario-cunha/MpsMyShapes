@@ -12,9 +12,10 @@
   </facets>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">e79d3cc5-a267-4b0c-a142-b41834b3b955(MyShapes.generator)</dependency>
+    <dependency reexport="false">69b48f8b-50e2-4cee-aae4-fd12ccabb43f(MyShapesDevkit)</dependency>
     <dependency reexport="false">1f047296-6e78-4a9c-a1eb-3516e98eb703(MyColor.BaseLanguage)</dependency>
-    <dependency reexport="false">97c1388b-e891-4959-85e0-3de45135ef54(MyColor)</dependency>
+    <dependency reexport="false">d29fb3f4-d5e6-495c-8dde-4646a9906438(BaseLanguage.Utils)</dependency>
+    <dependency reexport="false">e79d3cc5-a267-4b0c-a142-b41834b3b955(MyShapes.generator)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:97c1388b-e891-4959-85e0-3de45135ef54:MyColor" version="0" />
@@ -26,14 +27,15 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="d29fb3f4-d5e6-495c-8dde-4646a9906438(BaseLanguage.Utils)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="97c1388b-e891-4959-85e0-3de45135ef54(MyColor)" version="0" />
     <module reference="1f047296-6e78-4a9c-a1eb-3516e98eb703(MyColor.BaseLanguage)" version="0" />
     <module reference="226084d4-0149-43f0-9e4e-e539e6eeaf5d(MyColor.MyColors)" version="0" />
     <module reference="e79d3cc5-a267-4b0c-a142-b41834b3b955(MyShapes.generator)" version="0" />
     <module reference="fc7426c4-3e4e-4623-a51b-faea69f76328(MyShapes.sandbox)" version="0" />
+    <module reference="69b48f8b-50e2-4cee-aae4-fd12ccabb43f(MyShapesDevkit)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>

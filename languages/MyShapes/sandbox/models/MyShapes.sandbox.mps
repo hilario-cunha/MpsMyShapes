@@ -2,15 +2,12 @@
 <model ref="r:7f351a53-9f04-4cd7-afb4-c87223baeb4c(MyShapes.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f2775325-4788-418a-b759-72b67f771c05" name="MyShapes" version="0" />
-    <use id="97c1388b-e891-4959-85e0-3de45135ef54" name="MyColor" version="0" />
-    <use id="1f047296-6e78-4a9c-a1eb-3516e98eb703" name="MyColor.BaseLanguage" version="0" />
-    <use id="553b0fcc-bbbc-477f-b463-d7c3281b6a28" name="MyShapes.Enhanced" version="0" />
+    <devkit ref="69b48f8b-50e2-4cee-aae4-fd12ccabb43f(MyShapesDevkit)" />
   </languages>
   <imports>
-    <import index="ehwr" ref="r:712f6d50-ca19-4d63-92ae-d31a84c02b02(MyShapes.generator.helpers)" />
     <import index="3zy2" ref="r:5bd811d6-8c28-4778-8be5-c88443b00a90(MyColor.BaseLanguage.AllColors)" />
-    <import index="hsj7" ref="r:82bba2da-7ce0-45b2-b7d7-935d1e554386(MyColor.Helpers)" />
+    <import index="a2k6" ref="r:32d3d301-436f-40ec-9de3-8135c13e02ae(BaseLanguage.Utils.Code)" />
+    <import index="ehwr" ref="r:712f6d50-ca19-4d63-92ae-d31a84c02b02(MyShapes.generator.helpers)" />
   </imports>
   <registry>
     <language id="97c1388b-e891-4959-85e0-3de45135ef54" name="MyColor">
@@ -50,8 +47,8 @@
       <property role="3lUTww" value="100" />
       <property role="3lUTwy" value="100" />
       <property role="3lUTwB" value="100" />
-      <node concept="3lY5Fv" id="6YmQiBV9_L_" role="3lY6PE">
-        <ref role="3lY5Fu" to="3zy2:6YmQiBV9qHi" resolve="CYAN" />
+      <node concept="3lY5Fv" id="3EWAk3h9sJo" role="3lY6PE">
+        <ref role="3lY5Fu" to="3zy2:6YmQiBV9qHb" resolve="yellow" />
       </node>
     </node>
     <node concept="11b$o3" id="4ovrJ87d0MZ" role="3lYzJZ" />

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/MyColorBLDevkit/MyColorBLDevkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/MyShapesDevkit/MyShapesDevkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MyColor.BaseLanguage/MyColor.BaseLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MyColor/MyColor.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MyShapes.Enhanced/MyShapes.Enhanced.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MyShapes/MyShapes.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MyShapes/sandbox/MyShapes.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/BaseLanguage.Utils/BaseLanguage.Utils.msd" folder="" />
     </projectModules>
   </component>
 </project>

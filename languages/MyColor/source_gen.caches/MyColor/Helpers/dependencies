@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="MyColor.Helpers.ColorHelpers">
-    <classNode dependClassName="java.awt.Color" />
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.String" />
-  </dependency>
-</dependenciesRoot>
-

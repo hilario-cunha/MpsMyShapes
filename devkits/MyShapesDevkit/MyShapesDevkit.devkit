@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="MyShapesDevkit" uuid="69b48f8b-50e2-4cee-aae4-fd12ccabb43f">
+  <exported-language name="f2775325-4788-418a-b759-72b67f771c05(MyShapes)" />
+  <exported-language name="553b0fcc-bbbc-477f-b463-d7c3281b6a28(MyShapes.Enhanced)" />
+  <extendedDevKits>
+    <extendedDevKit>a5c0f9aa-43fb-4bac-b0ce-4aae095d063c(MyColorBLDevkit)</extendedDevKit>
+  </extendedDevKits>
+</dev-kit>
+
