@@ -3,6 +3,7 @@
   <dependency className="MyShapes.Language">
     <classNode dependClassName="MyShapes.actions.ActionAspectDescriptorImpl" />
     <classNode dependClassName="MyShapes.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="MyShapes.intentions.IntentionsDescriptor" />
     <classNode dependClassName="MyShapes.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="MyShapes.structure.StructureAspectDescriptor" />
     <classNode dependClassName="java.lang.Class" />
@@ -11,6 +12,7 @@
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.intentions.IntentionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.smodel.language.LanguageExtensions" />

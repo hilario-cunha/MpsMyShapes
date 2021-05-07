@@ -34,6 +34,14 @@ public class MyShapesFactory {
           SPropertyOperations.assign(newNode, PROPS.size$W9W5, SPropertyOperations.getInteger(circle, PROPS.radius$rh6e));
         }
       }
+      {
+        final SNode square = sampleNode;
+        if (SNodeOperations.isInstanceOf(square, CONCEPTS.Square$Zf)) {
+          SPropertyOperations.assign(newNode, PROPS.upperLeftX$W3PF, SPropertyOperations.getInteger(square, PROPS.upperLeftX$W3PF));
+          SPropertyOperations.assign(newNode, PROPS.upperLeftY$W9f2, SPropertyOperations.getInteger(square, PROPS.upperLeftY$W9f2));
+          SPropertyOperations.assign(newNode, PROPS.size$W9W5, SPropertyOperations.getInteger(square, PROPS.size$W9W5));
+        }
+      }
     }
   }
   public static class NodeFactory_7126740561890823407 implements NodeFactory {
@@ -46,6 +54,17 @@ public class MyShapesFactory {
           SPropertyOperations.assign(newNode, PROPS.radius$rh6e, SPropertyOperations.getInteger(square, PROPS.size$W9W5));
         }
       }
+
+      {
+        final SNode circle = sampleNode;
+        if (SNodeOperations.isInstanceOf(circle, CONCEPTS.Circle$YK)) {
+          SPropertyOperations.assign(newNode, PROPS.x$raZO, SPropertyOperations.getInteger(circle, PROPS.x$raZO));
+          SPropertyOperations.assign(newNode, PROPS.y$rgpb, SPropertyOperations.getInteger(circle, PROPS.y$rgpb));
+          SPropertyOperations.assign(newNode, PROPS.radius$rh6e, SPropertyOperations.getInteger(circle, PROPS.radius$rh6e));
+        }
+      }
+
+
     }
   }
 

@@ -45,10 +45,10 @@
     <node concept="11b$o3" id="4ovrJ87d0MR" role="3lYzJZ" />
     <node concept="3lYWqy" id="6bBhcwHRYx_" role="3lYzJZ">
       <property role="3lUTww" value="100" />
-      <property role="3lUTwy" value="100" />
+      <property role="3lUTwy" value="10" />
       <property role="3lUTwB" value="100" />
-      <node concept="3lY5Fv" id="3EWAk3h9sJo" role="3lY6PE">
-        <ref role="3lY5Fu" to="3zy2:6YmQiBV9qHb" resolve="yellow" />
+      <node concept="3lY5Fv" id="3JDiOMbWGre" role="3lY6PE">
+        <ref role="3lY5Fu" to="3zy2:6YmQiBV9qH5" resolve="red" />
       </node>
     </node>
     <node concept="11b$o3" id="4ovrJ87d0MZ" role="3lYzJZ" />
@@ -60,22 +60,24 @@
         <ref role="3lY5Fu" to="3zy2:6YmQiBV9qHe" resolve="GREEN" />
       </node>
     </node>
-    <node concept="3lYWqy" id="4ovrJ87daQ1" role="3lYzJZ">
-      <property role="3lUTww" value="1" />
-      <property role="3lUTwy" value="2" />
-      <property role="3lUTwB" value="20" />
-      <node concept="3lY5Fv" id="6YmQiBV9_LF" role="3lY6PE">
+    <node concept="3lYWqz" id="3JDiOMbX4Yr" role="3lYzJZ">
+      <property role="3lYRbZ" value="1" />
+      <property role="3lYRbL" value="2" />
+      <property role="3lYRbM" value="20" />
+      <node concept="3lY5Fv" id="3JDiOMbX4Yt" role="3lY6PE">
         <ref role="3lY5Fu" to="3zy2:6YmQiBV9qH6" resolve="RED" />
       </node>
     </node>
-    <node concept="3lYWqz" id="6bBhcwHRYxc" role="3lYzJZ">
-      <property role="3lYRbZ" value="200" />
-      <property role="3lYRbL" value="200" />
-      <property role="3lYRbM" value="100" />
-      <node concept="3lY5Fv" id="6YmQiBV9_LI" role="3lY6PE">
+    <node concept="11b$o3" id="3JDiOMbX52f" role="3lYzJZ" />
+    <node concept="3lYWqy" id="3JDiOMbXkV1" role="3lYzJZ">
+      <property role="3lUTww" value="200" />
+      <property role="3lUTwy" value="200" />
+      <property role="3lUTwB" value="100" />
+      <node concept="3lY5Fv" id="3JDiOMbXkV3" role="3lY6PE">
         <ref role="3lY5Fu" to="3zy2:6YmQiBV9qHj" resolve="blue" />
       </node>
     </node>
+    <node concept="11b$o3" id="3JDiOMbX553" role="3lYzJZ" />
   </node>
 </model>
 

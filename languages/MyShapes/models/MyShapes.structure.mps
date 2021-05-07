@@ -4,9 +4,11 @@
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
+    <devkit ref="a5c0f9aa-43fb-4bac-b0ce-4aae095d063c(MyColorBLDevkit)" />
   </languages>
   <imports>
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
+    <import index="vbi9" ref="97c1388b-e891-4959-85e0-3de45135ef54/i:f010101(MyColor/MyColor@descriptor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="b0sh" ref="r:b05d9daf-ac89-4c23-96ae-ee201ecf976d(MyColor.structure)" implicit="true" />
   </imports>
